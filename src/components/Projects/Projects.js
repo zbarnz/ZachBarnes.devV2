@@ -9,7 +9,6 @@ import resumelite from "../../Assets/Projects/resumelite.png";
 import soccoin from "../../Assets/Projects/soccoin.png";
 import presient from "../../Assets/Projects/prescient.png";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -81,8 +80,7 @@ function Projects() {
               imgPath={presient}
               isBlog={false}
               title="Prescient"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="Prescient will revolutionize your daily habit tracking with an intuitive application designed for ease of use. By implementing a Chart.js wrapper, we ensure enhanced readability and usability of your progress data. Built on the NEST.JS backend framework, Prescient is scalable and thoroughly tested for reliability. Additionally, our GraphQL API efficiently manages data requests, eliminating overfetching issues and providing a seamless user experience."
               demoLink="https://www.prescient.thudson.dev/"
             />
           </Col>
