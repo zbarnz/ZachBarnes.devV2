@@ -49,7 +49,7 @@ function Projects() {
               imgPath={snapcandidate}
               isBlog={false}
               title="SnapCandidate"
-              description="SnapCandidate will streamline your job search by utilizing AI to automate the application process. SnapCandidate will automatically craft and submit perfectly tailored applications across multiple platforms on your behalf, ensuring each submission is optimized for success. "
+              description="SnapCandidate will streamline your job search by utilizing AI to automate the application process. SnapCandidate will automatically craft and submit perfectly tailored applications across multiple platforms on your behalf, ensuring each submission is optimized for success."
               ghLink="https://github.com/zbarnz/PersonalRecruiter"
               demoLink="https://snapcandidate.com"
             />
