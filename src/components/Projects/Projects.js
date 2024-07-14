@@ -8,6 +8,13 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import meetingminder from "../../Assets/Projects/meetingminder.png";
+import snapcandidate from "../../Assets/Projects/snapcandidate.png";
+import aioverview from "../../Assets/Projects/aioverview.png";
+import resumelite from "../../Assets/Projects/resumelite.png";
+import soccoin from "../../Assets/Projects/soccoin.png";
+import presient from "../../Assets/Projects/prescient.png";
+
 
 function Projects() {
   return (
@@ -23,68 +30,66 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={meetingminder}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="MeetingMinder"
+              description="MeetingMinder will allow for more efficient meetings by establishing meeting topics in advance, determining each topics value, and then deciding on the order and allocating time to the topics based on their value. In addition, agenda will simplify meeting notes avoiding TLDR through action items for each topic."
+              ghLink="https://github.com/SocexSolutions/agenda-v2"
+              demoLink="https://www.meetingminder.dev/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={aioverview}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Hide AI Overviews"
+              description="With over 12K active users and over 300 five star reviews, this browser extension is designed to enhance your browsing experience by removing AI-generated overviews from Google search results."
+              ghLink="https://github.com/zbarnz/Google_AI_Overviews_Blocker"
+              demoLink="https://chromewebstore.google.com/detail/hide-google-ai-overviews/neibhohkbmfjninidnaoacabkjonbahn"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={snapcandidate}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="SnapCandidate"
+              description="SnapCandidate will streamline your job search by utilizing AI to automate the application process. SnapCandidate will automatically craft and submit perfectly tailored applications across multiple platforms on your behalf, ensuring each submission is optimized for success. "
+              ghLink="https://github.com/zbarnz/PersonalRecruiter"
+              demoLink="https://snapcandidate.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={soccoin}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Soccoin"
+              description="SoCoin is a showcase of blockchain technology in the form of a crypto currency. This example includes steps such as signing transactions with private and public keys, proof-of-work, and mining rewards to incentivize mining blocks."
+              ghLink="https://github.com/zbarnz/SoCoin"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={resumelite}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Resume-lite"
+              description="Resume-Lite is a lightweight library designed for generating resumes in HTML format. With zero dependencies, it ensures minimal overhead and maximum simplicity. By taking structured data as input, this library produces clean and professional resumes in HTML, making it an ideal tool for developers looking to create customizable resume templates with ease."
+              ghLink="https://github.com/zbarnz/resume-lite"
+              demoLink="https://www.npmjs.com/package/resume-lite"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={presient}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
+              title="Prescient"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              demoLink="https://www.prescient.thudson.dev/"
             />
           </Col>
         </Row>
