@@ -33,7 +33,6 @@ function App() {
     <Router>
       <Preloader load={load} />
       <Analytics />
-      import {Analytics} from "@vercel/analytics/react"
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
